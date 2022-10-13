@@ -1,10 +1,10 @@
-# Getting Started with Create React App
+# Volante Frontend Challenge
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Practical exercise
 
-In the project directory, you can run:
+Using ReactJS and related frameworks or libraries, build a web application that retrieves weather data from a public API, shows the weather details on the screen in a user-friendly manner and is protected with a simple login form.
 
 ### `npm start`
 

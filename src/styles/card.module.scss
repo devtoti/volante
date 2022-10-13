@@ -1,0 +1,57 @@
+@use './mixins.scss';
+@use './variables.scss'as *;
+
+.card {
+    background-color: $blue-200;
+    min-height: 256px;
+    // aspect-ratio: 1/1.6;
+    border-radius: 8px;
+    max-width: 256px;
+    color: $blue-600;
+    box-shadow: 0px 5px 8px -2px rgba(0,0,0,0.3);
+
+    
+    .cardForecast {
+        margin: 1rem
+        
+    }
+    
+    .cardHeader {
+        background-color: $gray-400;
+        position: relative;
+        border-radius: 8px 8px 0 0;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+
+        p, h1 {
+            padding: 0 0.5rem;
+        }
+        
+    }
+
+    .cardForecast h1:hover {
+        cursor: pointer;
+        color: $gray-400;
+    }
+
+    img {
+        border-radius: 50%;
+        width: 48px;
+        height: 48px;
+        border: 2px solid $blueViolet-200;
+        position: absolute;
+        right: 1rem;
+    }
+}
+
+.mockupCard {
+    min-height: 256px;
+    border-radius: 8px;
+    max-width: 256px;
+    border: 4px dashed $gray-800;
+
+    & * {
+        margin: 1rem;
+        color: $gray-800
+    }
+}

@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import Form from './components/Form'
+import './styles/styles.scss';
+import Weather from './components/Weather';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Link
+} from "react-router-dom";
+import Dashboard from './routes/Dashboard';
+import Login from './routes/Login';
+import {useState} from 'react';
 
-function App() {
+
+
+export default function App() {
+  const [currUser, setCurrUser] = useState({
+    name: '',
+    isLoggedIn: true
+  })
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+    <Router>
+        <Routes>
+          <Route path="/dashboard" element={<Dashboard currUser={currUser}/>}>
+          </Route>
+          <Route path="/" element={<Login setCurrUser={setCurrUser} />}>
+          </Route>
+        </Routes>
+    </Router>
   );
 }
-
-export default App;
