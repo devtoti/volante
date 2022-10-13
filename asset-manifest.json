@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/volante/static/css/main.086c760e.css",
-    "main.js": "/volante/static/js/main.989b5722.js",
+    "main.js": "/volante/static/js/main.8ff373fd.js",
     "static/media/volante-illustration.png": "/volante/static/media/volante-illustration.1647fd796b2337800dc5.png",
     "static/media/logo-white.png": "/volante/static/media/logo-white.c0fda391a6925703c4a8.png",
     "index.html": "/volante/index.html",
     "main.086c760e.css.map": "/volante/static/css/main.086c760e.css.map",
-    "main.989b5722.js.map": "/volante/static/js/main.989b5722.js.map"
+    "main.8ff373fd.js.map": "/volante/static/js/main.8ff373fd.js.map"
   },
   "entrypoints": [
     "static/css/main.086c760e.css",
-    "static/js/main.989b5722.js"
+    "static/js/main.8ff373fd.js"
   ]
 }
