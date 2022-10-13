@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/volante/static/css/main.086c760e.css",
+    "main.js": "/volante/static/js/main.80bdf159.js",
+    "static/media/volante-illustration.png": "/volante/static/media/volante-illustration.1647fd796b2337800dc5.png",
+    "static/media/logo-white.png": "/volante/static/media/logo-white.c0fda391a6925703c4a8.png",
+    "index.html": "/volante/index.html",
+    "main.086c760e.css.map": "/volante/static/css/main.086c760e.css.map",
+    "main.80bdf159.js.map": "/volante/static/js/main.80bdf159.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.086c760e.css",
+    "static/js/main.80bdf159.js"
+  ]
+}
