@@ -27,7 +27,7 @@ export default function Form({setCurrUser}) {
             
             setCurrUser({name: name, isLoggedIn: true})
             const location = {
-                pathname: '/dashboard',
+                pathname: '/volante/dashboard',
                 state: { fromDashboard: true }
             }
             navigate(location.pathname, { replace: true })
