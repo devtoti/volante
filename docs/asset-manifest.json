@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.086c760e.css",
+    "main.js": "/static/js/main.3f1e792d.js",
+    "static/media/volante-illustration.png": "/static/media/volante-illustration.1647fd796b2337800dc5.png",
+    "static/media/logo-white.png": "/static/media/logo-white.c0fda391a6925703c4a8.png",
+    "index.html": "/index.html",
+    "main.086c760e.css.map": "/static/css/main.086c760e.css.map",
+    "main.3f1e792d.js.map": "/static/js/main.3f1e792d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.086c760e.css",
+    "static/js/main.3f1e792d.js"
+  ]
+}
