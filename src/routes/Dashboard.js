@@ -10,7 +10,7 @@ function Dashboard({currUser}) {
 
   const handleLogOut = () => {
     const location = {
-      pathname: '/',
+      pathname: '/volante/',
       state: { fromDashboard: true }
     }
     navigate(location.pathname, { replace: true })

@@ -23,9 +23,9 @@ export default function App() {
 
     <Router>
         <Routes>
-          <Route path="/dashboard" element={<Dashboard currUser={currUser}/>}>
+          <Route path="/volante/dashboard" element={<Dashboard currUser={currUser}/>}>
           </Route>
-          <Route path="/" element={<Login setCurrUser={setCurrUser} />}>
+          <Route path="/volante/" element={<Login setCurrUser={setCurrUser} />}>
           </Route>
         </Routes>
     </Router>
